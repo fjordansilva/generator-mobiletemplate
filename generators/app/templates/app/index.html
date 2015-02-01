@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+
+        <!-- build:css styles/vendor.css -->
+            <!-- bower:css -->
+            <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:css styles/custom.css -->
+            <!-- injector:css -->
+            <!-- endinjector -->
+        <!-- endbuild -->
+
+        <title><%= humanizedAppName %></title>
+        
+        <!-- Cordova -->
+        <script type="text/javascript" src="cordova.js"></script>
+
+        <!-- build:js scripts/vendor.js -->
+            <!-- bower:js -->
+            <!-- endbower -->
+            <script src="lib/angular-retina/dist/angular-retina.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+        <div ui-view></div>
+
+        <!-- build:js scripts/custom.js -->
+            <!-- injector:js -->            
+            <!-- endinjector -->
+    <!-- endbuild -->
+
+    </body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "name": "generator-mobiletemplate",
+  "version": "0.1.0",
+  "description": "Generador de aplicaciones móviles basado en Cordova y AngularJS",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "fjordansilva/generator-mobiletemplate",
+  "author": {
+    "name": "Fernando Jordan Silva",
+    "email": "fjordansilva@gmail.com",
+    "url": "https://github.com/fjordansilva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "cordova",
+    "angularjs"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0",
+    "wiredep": "~1.0.0",
+    "cordova": "4.x.x",
+    "fs-extra": "~0.8.1",
+    "underscore.inflections": "~0.2.1"
+  },
+  "devDependencies": {
+    "async": "~0.2.9",
+    "csslint": "^0.10.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-release": "~0.6.0",
+    "jshint": "^2.5.1",
+    "load-grunt-tasks": "~0.3.0",
+    "mocha": "~1.21.4",
+    "semver": "~2.2.1",
+    "temp": "~0.8.1",
+    "underscore.string": "~2.3.1",
+    "xunit-file": "0.0.5"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
+
+        
+        
